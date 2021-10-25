@@ -7,9 +7,9 @@ $imSettings['search']['general'] = array(
 	'menu_position' => 'left',
 	'defaultScope' => array(
 		'0' => 'index.html',
-		'3' => 'galeria.html',
-		'4' => 'amigos.html',
-		'5' => 'quien-soy.html'
+		'3' => 'pcbacks.html',
+		'4' => 'fondos-xat.html',
+		'5' => 'banneers.html'
 	),
 	'extendedScope' => array(
 	)

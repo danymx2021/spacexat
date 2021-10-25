@@ -4,7 +4,7 @@
 		p = s.currentPath,
 		b = x.boot;
 
-	s.siteId = 'A310EF293FC67934157D244D13ADB897';
+	s.siteId = 'B96CC60552996E9797F88CAF2682319F';
 	s.version = '17-0-11-0';
 	b.push(function () {
 		x.setupDateTime();
@@ -27,12 +27,12 @@
 		'zoomEnabled' : true,
 		'showProgress' : true,
 		'shadow' : '',
-		'background' : 'rgba(55, 71, 79, 1)',
+		'background' : 'rgba(0, 0, 0, 1)',
 		'borderWidth' : {
-			'top': 0,
-			'right': 0,
-			'bottom': 0,
-			'left': 0
+			'top': 1,
+			'right': 1,
+			'bottom': 1,
+			'left': 1
 		},
 		'buttonLeft': '<svg class=\"im-common-left-button\"  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 50 50\"><defs><style>.a{fill:#3e3d40;opacity:0.5;}.b{fill:#f6f6f6;}<\/style><\/defs><rect class=\"a\" x=\"5.02\" y=\"5\" width=\"39.94\" height=\"39.94\" rx=\"3.54\" ry=\"3.54\"/><path class=\"b\" d=\"M23.75,9.2a1.17,1.17,0,0,1,1.63,0,1.13,1.13,0,0,1,0,1.61l-13,13.3,27.64-.22h0a1.14,1.14,0,1,1,0,2.28l-27.63.22L25.94,39.16a1.13,1.13,0,0,1,0,1.61,1.17,1.17,0,0,1-.83.34,1.14,1.14,0,0,1-.8-.32L9.46,26.65a2,2,0,0,1-.05-2.79Z\"/><\/svg>',
 		'buttonRight': '<svg class=\"im-common-right-button\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 50 50\"><defs><style>.a{fill:#3e3d40;opacity:0.5;}.b{fill:#f6f6f6;}<\/style><\/defs><rect class=\"a\" x=\"5.02\" y=\"5\" width=\"39.94\" height=\"39.94\" rx=\"3.54\" ry=\"3.54\"/><path class=\"b\" d=\"M26.32,9.2a1.17,1.17,0,0,0-1.63,0,1.13,1.13,0,0,0,0,1.61l13,13.3L10,23.84h0a1.14,1.14,0,1,0,0,2.28l27.63.22L24.14,39.16a1.13,1.13,0,0,0,0,1.61,1.17,1.17,0,0,0,.83.34,1.14,1.14,0,0,0,.8-.32L40.61,26.65a2,2,0,0,0,.05-2.79Z\"/><\/svg>',
@@ -43,15 +43,15 @@
 		'buttonZoomOut': '<svg class=\"im-common-zoom-out-button\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 50 50\"><defs><style>.a{fill:#3e3d40;opacity:0.5;}.b{fill:#f6f6f6;}<\/style><\/defs><rect class=\"a\" x=\"5.02\" y=\"4.57\" width=\"39.94\" height=\"39.94\" rx=\"3.54\" ry=\"3.54\"/><path class=\"b\" d=\"M40.87,38.91l-9.68-9.68a12.84,12.84,0,1,0-1.64,1.64l9.68,9.67a1.16,1.16,0,1,0,1.64-1.64Zm-9-17.82A10.45,10.45,0,1,1,28.8,13.7,10.39,10.39,0,0,1,31.86,21.08Z\"/><path class=\"b\" d=\"M15.21,19.77H27.39a1.12,1.12,0,0,1,1.12,1.12v.27a1.12,1.12,0,0,1-1.12,1.12H15.21a1.12,1.12,0,0,1-1.12-1.12v-.27A1.11,1.11,0,0,1,15.21,19.77Z\"/><\/svg>',
 		'buttonZoomRestore': '<svg class=\"im-common-zoom-restore-button\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 50 50\"><defs><style>.a{fill:#3e3d40;opacity:0.5;}.b{fill:#f6f6f6;}<\/style><\/defs><rect class=\"a\" x=\"5.02\" y=\"4.57\" width=\"39.94\" height=\"39.94\" rx=\"3.54\" ry=\"3.54\"/><path class=\"b\" d=\"M41,38.89,29.68,27.8l-.44.48-.15.16A10.57,10.57,0,1,1,32.19,21,10.36,10.36,0,0,1,32,22.88l-4.79-3.46a.9.9,0,0,0-1.06,1.46l6.09,4.4a1.3,1.3,0,0,0,.76.23h0a1.32,1.32,0,0,0,.78-.25l6-4.52a.9.9,0,1,0-1.09-1.44L34.1,22.78A12.18,12.18,0,0,0,34.26,21a12.74,12.74,0,1,0-4.5,9.62l9.76,9.76A1,1,0,1,0,41,38.89ZM40.66,40h0Z\"/><\/svg>',
 		'borderRadius' : '3px 3px 3px 3px',
-		'borderColor' : 'rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1)',
+		'borderColor' : 'rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1)',
 		'textColor' : 'rgba(0, 0, 0, 1)',
-		'fontFamily' : 'Tahoma',
+		'fontFamily' : 'Raleway',
 		'fontStyle' : 'normal',
 		'fontWeight' : 'normal',
 		'fontSize' : '9pt',
 		'textAlignment' : 'left',
 		'boxColor' : 'rgba(255, 255, 255, 1)',
-		'opacity' : 0.9,
+		'opacity' : 0.7,
 		'radialBg' : false // Works only in Mozilla Firefox and Google Chrome
 	});
 
@@ -60,11 +60,11 @@
 		'effect' : 'websitex5.bl.templates.showboxanimation',
 		'width' : 500,
 		'shadow' : '',
-		'background' : 'rgba(55, 71, 79, 1)',
+		'background' : 'rgba(0, 0, 0, 1)',
 		'borderRadius' : 10,
 		'textColor' : 'rgba(0, 0, 0, 1)',
 		'boxColor' : 'rgba(255, 255, 255, 1)',
-		'opacity' : 0.9
+		'opacity' : 0.7
 	});
 
 	// Tip
@@ -72,8 +72,8 @@
 		'borderRadius' : 1,
 		'arrow' : true,
 		'shape' : 'classic',
-		'position' : 'top',
-		'effect' : 'none',
+		'position' : 'bottom',
+		'effect' : 'fade',
 		'showTail' : true
 	});
 
@@ -82,6 +82,12 @@
 		'imageFile' : 'style/page-to-top.png'
 	});
 
+	if (s.imAdv.show) {
+		s.imAdv.position = 'left-top';
+		s.imAdv.message = { media: { "type": "image", "url": x5engine.settings.currentPath + "images/oferta.png", "width": 520, "height": 220 }, effect: 'animated swing advertising' };
+		s.imAdv.message.media.onclick = function () { x5engine.utils.location('index.html', null, false); };
+		s.imAdv.attentionSeeker = { media: { "type": "image", "url": x5engine.settings.currentPath + "images/02.png", "width": 96, "height": 96 }, effect: 'animated swing' };
+	}
 	// Captcha
 	b.push(function () {
 		x5engine.captcha.instance = new x5engine.captcha.x5captcha({

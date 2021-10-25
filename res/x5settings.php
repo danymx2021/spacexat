@@ -7,14 +7,14 @@
 */
 
 $imSettings['general'] = array(
-	'url' => 'http://xat-fondos.com/',
-	'homepage_url' => 'http://xat-fondos.com/index.html',
+	'url' => 'http://graficoz.com/',
+	'homepage_url' => 'http://graficoz.com/index.html',
 	'icon' => '',
 	'version' => '17.0.11.0',
-	'sitename' => 'Xat-Fondos',
+	'sitename' => 'Galeria Diseños',
 	'lang_code' => 'es-ES',
 	'public_folder' => '',
-	'salt' => '36yoj48xdc043688wivonshq3yqqc89fovbftjdpd4jkids6w4hl5lbao8kkeh',
+	'salt' => 'juh9uqn8e4put1yhxh2fc7wbzb07nv738y4ajtii38r66xusy62c5zmcx69jqfk',
 	'use_common_email_sender_address' => false,
 	'common_email_sender_addres' => ''
 );
@@ -43,8 +43,8 @@ $imSettings['password_policy'] = array(
 
 
 $imSettings['admin'] = array(
-	'notification_public_key' => '70059741b0f0be13',
-	'notification_private_key' => 'c73cc122f4fc633c',
+	'notification_public_key' => 'afc0bbc552a7270b',
+	'notification_private_key' => '8559701cc57de8ba',
 	'enable_manager_notifications' => false,
 	'theme' => 'orange',
 	'extra-dashboard' => array(),
@@ -116,16 +116,16 @@ $imSettings['dynamicobjects'] = array(
 
 $ImMailer->emailType = 'phpmailer';
 $ImMailer->exposeWsx5 = true;
-$ImMailer->header = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">' . "\n" . '<html>' . "\n" . '<head>' . "\n" . '<meta http-equiv="content-type" content="text/html; charset=utf-8">' . "\n" . '<meta name="generator" content="Incomedia WebSite X5 Professional 17.0.11 - www.websitex5.com">' . "\n" . '</head>' . "\n" . '<body bgcolor="#37474F" style="background-color: #37474F;">' . "\n\t" . '<table border="0" cellpadding="0" align="center" cellspacing="0" style="padding: 0; margin: 0 auto; width: 700px;">' . "\n\t" . '<tr><td id="imEmailContent" style="min-height: 300px; padding: 10px; font: normal normal normal 9pt \'Tahoma\'; color: #000000; background-color: #FFFFFF; text-align: left; text-decoration: none;  width: 700px;border-style: solid; border-color: #000000; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;background-color: #FFFFFF" width="700px">' . "\n\t\t";
-$ImMailer->footer = "\n\t" . '</td></tr>' . "\n\t" . '</table>' . "\n" . '<table width="100%"><tr><td id="imEmailFooter" style="font: normal normal normal 7pt \'Tahoma\'; color: #FFFFFF; background-color: transparent; text-align: center; text-decoration: none;  padding: 10px; margin-top: 5px;background-color: transparent">' . "\n\t\t" . 'Este e-mail incluye información exclusiva para el destinatario mencionado anteriormente.<br>Si lo ha recibido por error, notifíqueselo inmediatamente al remitente y destrúyalo sin copiarlo.' . "\n\t" . '</td></tr></table>' . "\n\t" . '</body>' . "\n" . '</html>';
+$ImMailer->header = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">' . "\n" . '<html>' . "\n" . '<head>' . "\n" . '<meta http-equiv="content-type" content="text/html; charset=utf-8">' . "\n" . '<meta name="generator" content="Incomedia WebSite X5 Professional 17.0.11 - www.websitex5.com">' . "\n" . '</head>' . "\n" . '<body bgcolor="#CC5D6D" style="background-color: #CC5D6D;">' . "\n\t" . '<table border="0" cellpadding="0" align="center" cellspacing="0" style="padding: 0; margin: 0 auto; width: 700px;">' . "\n\t" . '<tr><td id="imEmailContent" style="min-height: 300px; padding: 10px; font: normal normal normal 9pt \'Raleway\'; color: #000000; background-color: #FFFFFF; text-align: left; text-decoration: none;  width: 700px;border-style: solid; border-color: #808080; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;background-color: #FFFFFF" width="700px">' . "\n\t\t";
+$ImMailer->footer = "\n\t" . '</td></tr>' . "\n\t" . '</table>' . "\n" . '<table width="100%"><tr><td id="imEmailFooter" style="font: normal normal normal 7pt \'Raleway\'; color: #FFFFFF; background-color: transparent; text-align: center; text-decoration: none;  padding: 10px; margin-top: 5px;background-color: transparent">' . "\n\t\t" . 'Este e-mail incluye información exclusiva para el destinatario mencionado anteriormente.<br>Si lo ha recibido por error, notifíqueselo inmediatamente al remitente y destrúyalo sin copiarlo.' . "\n\t" . '</td></tr></table>' . "\n\t" . '</body>' . "\n" . '</html>';
 $ImMailer->bodyBackground = '#FFFFFF';
 $ImMailer->bodyBackgroundEven = '#FFFFFF';
 $ImMailer->bodyBackgroundOdd = '#F0F0F0';
 $ImMailer->bodyBackgroundBorder = '#CDCDCD';
 $ImMailer->bodyTextColorOdd = '#000000';
 $ImMailer->bodySeparatorBorderColor = '#000000';
-$ImMailer->emailBackground = '#37474F';
-$ImMailer->emailContentStyle = 'font: normal normal normal 9pt \'Tahoma\'; color: #000000; background-color: #FFFFFF; text-align: left; text-decoration: none; ';
-$ImMailer->emailContentFontFamily = 'font-family: Tahoma;';
+$ImMailer->emailBackground = '#CC5D6D';
+$ImMailer->emailContentStyle = 'font: normal normal normal 9pt \'Raleway\'; color: #000000; background-color: #FFFFFF; text-align: left; text-decoration: none; ';
+$ImMailer->emailContentFontFamily = 'font-family: Raleway;';
 
 // End of file x5settings.php
